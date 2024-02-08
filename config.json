@@ -1,20 +1,20 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "readmeUrl": "https://domus.rkbagels.com/README.md",
+  "title": "RKBagels",
+  "name": "Ryan Kreutzer",
+  "ascii": "Br00klynBallin",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "wasqas715",
+    "linkedin": "ryan-kreutzer"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
+  "email": "ryan@rkbagels.com",
+  "ps1_hostname": "rkbagels",
   "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "repo": "https://github.com/wasqas715/LiveTerm",
+  "resume_url": "https://domus.rkbagels.com/RWK_Resume.pdf",
   "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
+    "paypal": "https://paypal.me/br00klynballin",
+    "eth": "0xa43b1e9F206d0Aa95616F029CBC8414BB01cd717"
   },
   "colors": {
     "light": {

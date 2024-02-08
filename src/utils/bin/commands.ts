@@ -48,7 +48,7 @@ export const donate = async (args: string[]): Promise<string> => {
   return `thank you for your interest. 
 here are the ways you can support my work:
 - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>
+- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.eth}" target="_blank">eth address</a></u>
 `;
 };
 
@@ -67,7 +67,7 @@ export const github = async (args: string[]): Promise<string> => {
 export const linkedin = async (args: string[]): Promise<string> => {
   window.open(`https://www.linkedin.com/in/${config.social.linkedin}/`);
 
-  return 'Opening linkedin...';
+  return 'Never update but opening linkedin...';
 };
 
 // Search
@@ -101,16 +101,15 @@ export const whoami = async (args: string[]): Promise<string> => {
 };
 
 export const ls = async (args: string[]): Promise<string> => {
-  return `a
-bunch
-of
-fake
-directories`;
+  return `/etc
+cat.png
+/spaceLaserControl
+/user
+/sys`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
-  return `unfortunately, i cannot afford more directories.
-if you want to help, you can type 'donate'.`;
+  return `cd: permission denied for user ${config.ps1_username}`;
 };
 
 export const date = async (args: string[]): Promise<string> => {
@@ -141,14 +140,13 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `
-█████        ███                       ███████████                                   
-░░███        ░░░                       ░█░░░███░░░█                                   
- ░███        ████  █████ █████  ██████ ░   ░███  ░   ██████  ████████  █████████████  
- ░███       ░░███ ░░███ ░░███  ███░░███    ░███     ███░░███░░███░░███░░███░░███░░███ 
- ░███        ░███  ░███  ░███ ░███████     ░███    ░███████  ░███ ░░░  ░███ ░███ ░███ 
- ░███      █ ░███  ░░███ ███  ░███░░░      ░███    ░███░░░   ░███      ░███ ░███ ░███ 
- ███████████ █████  ░░█████   ░░██████     █████   ░░██████  █████     █████░███ █████
-░░░░░░░░░░░ ░░░░░    ░░░░░     ░░░░░░     ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░ ░░░░░ 
+  ██████╗ ██████╗  ██████╗  ██████╗ ██╗  ██╗██╗  ██╗   ██╗███╗   ██╗██████╗  █████╗ ██╗     ██╗     ██╗███╗   ██╗
+  ██╔══██╗██╔══██╗██╔═████╗██╔═████╗██║ ██╔╝██║  ╚██╗ ██╔╝████╗  ██║██╔══██╗██╔══██╗██║     ██║     ██║████╗  ██║
+  ██████╔╝██████╔╝██║██╔██║██║██╔██║█████╔╝ ██║   ╚████╔╝ ██╔██╗ ██║██████╔╝███████║██║     ██║     ██║██╔██╗ ██║
+  ██╔══██╗██╔══██╗████╔╝██║████╔╝██║██╔═██╗ ██║    ╚██╔╝  ██║╚██╗██║██╔══██╗██╔══██║██║     ██║     ██║██║╚██╗██║
+  ██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║  ██╗███████╗██║   ██║ ╚████║██████╔╝██║  ██║███████╗███████╗██║██║ ╚████║
+  ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝   ╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝╚═╝  ╚═══╝
+                                                                                                                 
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
